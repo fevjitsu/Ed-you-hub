@@ -1,0 +1,140 @@
+.menu {
+  display: grid;
+  justify-content: space-between;
+}
+.content {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.paragraph {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.title {
+  font-size: 3em;
+  font-weight: lighter;
+}
+.subTitle {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 1024px) {
+  .content {
+  }
+  .paragraph {
+  }
+  .title {
+  }
+}
+@media only screen and (max-width: 600px) {
+  .content {
+  }
+  .paragraph {
+  }
+  .title {
+  }
+}
+.areaView {
+  position: relative;
+}
+.bannerContents {
+  position: relative;
+  padding: 0.8em;
+  opacity: 0.8;
+}
+.bannerTitle {
+  font-size: 4em;
+  font-weight: lighter;
+}
+.bannerSubTitle {
+  font-size: 2em;
+  font-weight: lighter;
+}
+.greetingGenLayout {
+  display: grid;
+  align-items: center;
+  grid-template-rows: 1fr 1fr;
+  height: 500px;
+  background-color: #292b2c;
+}
+.greetings {
+  font-size: 3em;
+  font-weight: lighter;
+  color: white;
+  justify-self: start;
+  padding: 0.5em;
+  background-color: black;
+  opacity: 0.8;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: -4em;
+}
+.phrases {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: white;
+  justify-self: end;
+  padding: 0.5em;
+  background-color: black;
+  opacity: 0.8;
+  margin-top: -4em;
+  margin-right: 1em;
+}
+@media only screen and (max-width: 600px) {
+  .banner {
+  }
+  .bannerContents {
+    position: absolute;
+    top: 5%;
+    right: 18%;
+    color: white;
+    background-color: lightblue;
+    padding: 0.8em;
+    opacity: 0.8;
+  }
+  .bannerTitle {
+    font-size: 1.2em;
+    font-weight: lighter;
+  }
+  .bannerSubTitle {
+    font-size: 1em;
+    font-weight: lighter;
+  }
+  .greetingGenLayout {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    height: 300px;
+    background-color: #292b2c;
+  }
+  .greetings {
+    font-size: 3em;
+    font-weight: lighter;
+    color: white;
+    justify-self: start;
+
+    padding: 0.5em;
+    background-color: black;
+    opacity: 0.8;
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+  }
+  .phrases {
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: white;
+    justify-self: end;
+
+    padding: 0.1em;
+    background-color: black;
+    opacity: 0.8;
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+  }
+}

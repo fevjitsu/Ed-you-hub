@@ -1,0 +1,14 @@
+.root {
+  margin: 2em;
+}
+.paragraph {
+  padding: 4em;
+  margin: 2em;
+}
+.title {
+  font-size: xx-large;
+  font-weight: lighter;
+}
+.image {
+  max-height: 150px;
+}
